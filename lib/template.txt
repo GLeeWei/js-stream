@@ -1,0 +1,21 @@
+;(function (factory) {
+	/*if (typeof exports === "object") {
+		// CommonJS
+		module.exports = exports = factory();
+	}
+	else if (typeof define === "function" && define.amd) {
+		// AMD
+		define([], factory);
+	}
+	else {*/
+        var _global = typeof window === 'undefined' ? global : window;
+        // browser
+        _global.JSStream = factory();
+	//}
+})(function () {
+   <%= data.contents %>
+    var JSStream = JSStream ||  {};
+    JSStream.Biostream = Biostream;
+    JSStream.Bostream = Bostream;
+    return JSStream;
+});

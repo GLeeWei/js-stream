@@ -1,0 +1,25 @@
+{
+  "name": "js-stream",
+  "version": "1.0.0",
+  "description": "js stream",
+  "main": "bin/js-stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stream",
+    "js"
+  ],
+  "author": "Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-uglify-es": "^1.0.0",
+    "gulp-wrap": "^0.13.0"
+  }
+}
